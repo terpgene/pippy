@@ -9,5 +9,3 @@ elif home == "China":
     print("Hello, China")
 else:
     print("Hello, World!")
-
-    
