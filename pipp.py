@@ -31,7 +31,7 @@ colors2 = ["purple",
            "orange",
            "green"]
 
-guess =  input("Guess a color: ")
+guess =  raw_input("Guess a color: ")
 if guess in colors2:
     print("You guessed correctly!")
 else:
