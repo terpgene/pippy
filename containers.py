@@ -23,3 +23,7 @@ print(fruit[0])
 print(fruit[1])
 print(fruit[2])
 print(fruit[3])
+
+
+colors = ["blue", "green", "yellow"]
+print(colors)
