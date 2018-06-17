@@ -9,3 +9,9 @@ elif home == "China":
     print("Hello, China")
 else:
     print("Hello, World!")
+
+colors = ["blue", "green", "yellow"]
+print(colors)
+
+colors[2] = "red"
+print(colors)
