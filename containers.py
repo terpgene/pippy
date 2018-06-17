@@ -29,4 +29,9 @@
 # print(colors)
 
 facts = dict()
-
+# add a value
+facts["code"] = "fun"
+# look up a key
+print(facts["code"])
+del facts["code"]
+print(facts)
