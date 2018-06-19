@@ -8,3 +8,11 @@ paths = os.path.join("/home", "terpgene", "Documents", "exercises", "Files", "st
 
 with open(paths, "w") as file:
     file.write("Hi from Python!")
+
+
+my_list = list()
+with open(paths, "r") as file:
+    my_list.append(file.read())
+
+print(my_list)
+
