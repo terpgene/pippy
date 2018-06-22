@@ -2,6 +2,8 @@
 import random
 
 def hangman():
+    """Hangman game"""
+    
     word_list = ["japan", "ghana", "own", "birthday"]
     random_number = random.randint(0,3)
     word = word_list[random_number]
