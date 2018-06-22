@@ -1,6 +1,10 @@
 #hangman game - start
+import random
 
-def hangman(word):
+def hangman():
+    word_list = ["japan", "ghana", "own", "birthday"]
+    random_number = random.randint(0,3)
+    word = word_list[random_number]
     wrong = 0
     stages = ["",
              "____________          ",
@@ -39,4 +43,4 @@ def hangman(word):
         print("\n".join(stages[0: wrong]))
         print("You lose! it was {}.".format(word))
 
-hangman("camel")
+hangman()
