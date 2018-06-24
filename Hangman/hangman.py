@@ -25,15 +25,14 @@ def hangman():
 
     while wrong < len(stages) - 1:
         print("\n")
-        msg = "Guess a letter: "
-        char = input(msg)
+        char = input("Guess a letter: ")
         if char in rletters:
             cind = rletters.index(char)
             board[cind] = char
             rletters[cind] = '$'
         else:
             wrong += 1
-        print((" ".join(board)))
+        print(("".join(board)))
         e = wrong + 1
         print("\n".join(stages[0: e]))
         if "___" not in board:
