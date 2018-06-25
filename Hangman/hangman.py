@@ -32,7 +32,7 @@ def hangman():
             rletters[cind] = '$'
         else:
             wrong += 1
-        print(("".join(board)))
+        print((" ".join(board)))
         e = wrong + 1
         print("\n".join(stages[0: e]))
         if "___" not in board:
